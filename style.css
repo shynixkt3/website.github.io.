@@ -1,0 +1,41 @@
+body {
+    font-family: Calibri, Arial, sans-serif;
+    color:aquamarine;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('Images/3f970068fb348024862d0d98f94e79fc.jpg'); /* Update path accordingly */
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+header {
+    background-color: #00ffff;
+    color: purple;
+    text-align: justify;
+    padding: 5px 0;
+}
+
+nav {
+    background-color: #00ff90;
+    color: BLUE;
+    text-align: center;
+    padding: 10px 0;
+}
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin:0;
+    }
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:BLUE;
+    font-weight: bold;
+}

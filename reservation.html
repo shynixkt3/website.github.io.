@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+       <h1>WELCOME TO:<p><b>THE GALLERIA HOTEL<b></p></h1><i>Discover comfort and luxury</i>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="reservation.html">Reservations</a></li>
+                <li><a href="booking.html">Bookings</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <img src="Images/f587714c5cb14dd0647e717da3fc0d2b.jpg" alt="Reservations" style="width:300px; float: left; margin-right: 50px">
+        <img src="Images/841492a2d7111f74be34c6a8be48c5ad.jpg" alt="Reservations" style="width:300px; float: left; margin-right: 50px">
+        <img src="Images/6d51945c3ca7c83a5bae2eaea1199c66.jpg" alt="Resrvations" style="width:300px; float: left; margin-right: 50px">
+        <h2>Food Reservation</h2>
+        <form id="reservatinForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required><br><br>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" required><br><br>
+
+            <label for="food">Food:</label>
+            <input type="text" id="food" required><br><br>
+
+            <input type="submit" value="Make reservation"
+        </form>
+        <div id="reservationStatus"></div>
+        <p>Book yourself a meal to eat ahead of time.</p>
+        <footer>
+        &copy; 2023 hotel website. All rights reserved.
+        </footer>
+    </section>
+    <script src="reservation script.js" defer></script>
+</body>
+</html>
